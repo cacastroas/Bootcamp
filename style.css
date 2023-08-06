@@ -198,8 +198,8 @@ footer {
 footer nav {
     display: flex;
     flex-direction: column;
-    align-items: center
-
+    align-items: center;
+        
     height: 20%;
 }
 
@@ -239,8 +239,8 @@ footer ul li {
 }
 
 footer ul li a {
- color: white;
- text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 footer ul li a:hover {
@@ -249,10 +249,10 @@ footer ul li a:hover {
 
 footer #endereco {
     font-weight: 600;
-    font-size: 15px; 
+    font-size: 15px;
 
-    color:white;
+    color: white;
 
     text-align: center;
-    width:20%;
+    width: 20%;
 }
