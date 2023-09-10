@@ -199,16 +199,10 @@ footer nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-        
+
     height: 20%;
 }
 
-footer .nav {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-around;
-}
 
 footer h4 {
     text-align: center;
@@ -255,4 +249,99 @@ footer #endereco {
 
     text-align: center;
     width: 20%;
+}
+
+footer .linha2 {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+footer .linha2 a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+footer .linha2 a:first-child {
+    border-right: 3px solid white;
+}
+
+footer .linha2 a:hover {
+    color: var(--cinza-hover);
+}
+
+/*Media Quuery*/
+
+@media only screen and (max-width: 600px) {
+
+    /*menu superior*/
+
+    #menuNavegacao {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    #menuSuperior {
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+        align-items: center;
+    }
+
+    #menuSuperior a {
+        height: 30px;
+    }
+
+    #login {
+        width: 100%;
+        margin: 0%;
+        border-radius: 0%;
+    }
+
+    /*Informativo*/
+    #informativo h1 {
+        font-size: 50px;
+    }
+
+    #informativo h2 {
+        font-size: 25px;
+    }
+
+    .fundo {
+        background-color: black;
+        font-weight: bold;
+        padding: 1px;
+    }
+
+    /*FORMULÁRIO*/
+    form {
+        width: 95%;
+    }
+
+    .checkbox-itens label {
+        font-size: 15px;
+    }
+
+    /*FOOTER*/
+    .linha1 {
+        flex-direction: column;
+    }
+
+    footer #endereco {
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer .linha2 {
+        margin: 0%;
+    }
+
+    footer .linha2 a {
+        font-size: 15px;
+    }
+
 }
